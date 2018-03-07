@@ -36,14 +36,25 @@ install_github("bridgedb/BridgeDbR")
 
 ### Browsing the documentation
 
+The [vignette on Bioconductor](https://bioconductor.org/packages/release/bioc/vignettes/BridgeDbR/inst/doc/tutorial.pdf)
+was a short walkthrough how to use the R package.
 
+For metabolites, the following code examples are useful. TODO...
 
 # Pathway Analysis
 
+Pathway analysis tries to find pathways where the more interesting biology is changed.
+
 ## WikiPathways
 
-
+WikiPathways (see [this Scholia page](https://tools.wmflabs.org/scholia/topic/Q7999828) and
+this [feedback with use cases](http://wikipathways.tumblr.com/)) is a community project to develop an
+Open knowledge database of biological pathways. Over the years many communities have collaborated
+via the website's **portals**. There is a colorful [academy](https://wikipathways.github.io/academy/path.html)
+where you can learn about the ins and outs of WikiPathways.
 
 ## PathVisio
 
+PathVisio is one of the tools that can be used to explore pathways, map experimental data onto
+pathways, and do pathway enrichment (see doi:).
 
