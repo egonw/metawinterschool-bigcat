@@ -41,13 +41,25 @@ was a short walkthrough how to use the R package.
 
 For metabolites, the following code examples are useful. TODO...
 
+### Identifier mapping data
+
+Besides a toolkit that can do identifier mapping, we actually still need the data that does the identifier
+mapping. The latest metabolite ID mapping database can be
+[downloaded from Figshare](https://figshare.com/articles/Metabolite_BridgeDb_ID_Mapping_Database_20180201_/5845134).
+
+This file can then be loaded into R with (it assumes the file is located in the current working folder):
+
+```(R)
+mbmaps = loadDatabase("metabolites_20180201.bridge")
+```
+
 # Pathway Analysis
 
 Pathway analysis tries to find pathways where the more interesting biology is changed.
 
 ## WikiPathways
 
-WikiPathways (see [this Scholia page](https://tools.wmflabs.org/scholia/topic/Q7999828) and
+[WikiPathways](http://wikipathways.org/) (see [this Scholia page](https://tools.wmflabs.org/scholia/topic/Q7999828) and
 this [feedback with use cases](http://wikipathways.tumblr.com/)) is a community project to develop an
 Open knowledge database of biological pathways. Over the years many communities have collaborated
 via the website's **portals**. There is a colorful [academy](https://wikipathways.github.io/academy/path.html)
@@ -56,5 +68,5 @@ where you can learn about the ins and outs of WikiPathways.
 ## PathVisio
 
 PathVisio is one of the tools that can be used to explore pathways, map experimental data onto
-pathways, and do pathway enrichment (see doi:).
+pathways, and do pathway enrichment (see doi:[10.1371/journal.pcbi.1004085](https://doi.org/10.1371/journal.pcbi.1004085)).
 
