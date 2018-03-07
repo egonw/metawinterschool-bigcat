@@ -34,13 +34,6 @@ library(devtools)
 install_github("bridgedb/BridgeDbR")
 ```
 
-### Browsing the documentation
-
-The [vignette on Bioconductor](https://bioconductor.org/packages/release/bioc/vignettes/BridgeDbR/inst/doc/tutorial.pdf)
-was a short walkthrough how to use the R package.
-
-For metabolites, the following code examples are useful. TODO...
-
 ### Identifier mapping data
 
 Besides a toolkit that can do identifier mapping, we actually still need the data that does the identifier
@@ -52,6 +45,21 @@ This file can then be loaded into R with (it assumes the file is located in the 
 ```(R)
 mbmaps = loadDatabase("metabolites_20180201.bridge")
 ```
+
+### Browsing the documentation
+
+The [vignette on Bioconductor](https://bioconductor.org/packages/release/bioc/vignettes/BridgeDbR/inst/doc/tutorial.pdf)
+was a short walkthrough how to use the R package.
+
+For metabolites, the following code examples are useful. A single metabolite identifier
+([CHEBI:55](http://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:55))
+can be mapped to other identifiers with the following code:
+
+```(R)
+map(mbmaps, "Ce", "CHEBI:55")
+```
+
+If you have a table with experimental data and a column with identifiers
 
 # Pathway Analysis
 
