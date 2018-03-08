@@ -127,3 +127,7 @@ data to gene, protein, or metabolite identifiers.
 
 Please take note of these general tutorials so that you know what information you can find there.
 After that, please proceed to the [metabolomics practical](metabolomics.md) for today.
+
+
+---
+Copyright (C) 2018 Egon Willighagen, [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
