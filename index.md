@@ -126,6 +126,7 @@ aimed at transcriptomics data. However, metabolomics data is basically of the sa
 data to gene, protein, or metabolite identifiers.
 
 Please take note of these general tutorials so that you know what information you can find there.
+These more general tutorials may be helpful if the below tutorial is not entirely clear.
 After that, please proceed to the [metabolomics practical](metabolomics.md) for today.
 
 
