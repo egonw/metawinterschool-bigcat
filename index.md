@@ -61,7 +61,7 @@ can be mapped to other identifiers with the following code:
 map(mbmaps, "Ce", "CHEBI:55")
 ```
 
-If you have a data matrix (like [this one](https://github.com/egonw/metawinterschool-bigcat/blob/master/macs_glucose_challenge.tsv)),
+If you have a data matrix (like [macs_glucose_challenge.tsv](https://github.com/egonw/metawinterschool-bigcat/blob/master/macs_glucose_challenge.tsv)),
 then a helper function can be helpful, for example, to handle multiple mapped identifiers:
 
 ```(R)
