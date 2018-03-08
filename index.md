@@ -121,3 +121,9 @@ where you can learn about the ins and outs of WikiPathways.
 PathVisio is one of the tools that can be used to explore pathways, map experimental data onto
 pathways, and do pathway enrichment (see doi:[10.1371/journal.pcbi.1004085](https://doi.org/10.1371/journal.pcbi.1004085)).
 
+PathVisio has developed [tutorials](https://www.pathvisio.org/documentation/tutorials/) but these are often
+aimed at transcriptomics data. However, metabolomics data is basically of the same structure: it all links experimental
+data to gene, protein, or metabolite identifiers.
+
+Please take note of these general tutorials so that you know what information you can find there.
+After that, please proceed to the [metabolomics practical](metabolomics.md) for today.
