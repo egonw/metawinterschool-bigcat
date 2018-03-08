@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pathway xmlns="http://pathvisio.org/GPML/2013a" Name="Glucose Homeostasis" Version="20090213" Author="Martijn van Iersel" Email="martijn.vaniersel@bigcat.unimaas.nl" License="CC-BY">
+  <Graphics BoardWidth="764.0" BoardHeight="561.0" />
+  <DataNode TextLabel="Glycerol" GraphId="a3695" Type="Metabolite">
+    <Graphics CenterX="300.0" CenterY="239.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00131" />
+  </DataNode>
+  <DataNode TextLabel="Isoleucine" GraphId="a87c1" Type="Metabolite">
+    <Graphics CenterX="575.0" CenterY="239.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00172" />
+  </DataNode>
+  <DataNode TextLabel="Methionine" GraphId="a9475" Type="Metabolite">
+    <Graphics CenterX="575.0" CenterY="101.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00696" />
+  </DataNode>
+  <DataNode TextLabel="GCA" GraphId="b3e70" Type="Metabolite">
+    <Graphics CenterX="644.5" CenterY="375.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00138" />
+  </DataNode>
+  <DataNode TextLabel="Glucose" GraphId="b4f4c" Type="Metabolite">
+    <Graphics CenterX="362.0" CenterY="473.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="HMDB" ID="HMDB00122" />
+  </DataNode>
+  <DataNode TextLabel="Ornithine" GraphId="b5667" Type="Metabolite">
+    <Graphics CenterX="694.0" CenterY="180.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00214" />
+  </DataNode>
+  <DataNode TextLabel="Lactate" GraphId="b58bf" Type="Metabolite">
+    <Graphics CenterX="158.0" CenterY="239.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0033cc" />
+    <Xref Database="HMDB" ID="HMDB00190" />
+  </DataNode>
+  <DataNode TextLabel="Arginine" GraphId="b7e31" Type="Metabolite">
+    <Graphics CenterX="694.0" CenterY="200.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00517" />
+  </DataNode>
+  <DataNode TextLabel="Hypoxanthine" GraphId="c0de7" Type="Metabolite">
+    <Graphics CenterX="239.0" CenterY="521.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00157" />
+  </DataNode>
+  <DataNode TextLabel="Histidine" GraphId="c1d43" Type="Metabolite">
+    <Graphics CenterX="575.0" CenterY="161.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00177" />
+  </DataNode>
+  <DataNode TextLabel="B-OH-butyrate" GraphId="c71cd" Type="Metabolite">
+    <Graphics CenterX="433.0" CenterY="239.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00011" />
+  </DataNode>
+  <DataNode TextLabel="GCDCA" GraphId="c88a9" Type="Metabolite">
+    <Graphics CenterX="644.5" CenterY="395.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00637" />
+  </DataNode>
+  <DataNode TextLabel="Pyruvate" GraphId="c9c56" Type="Metabolite">
+    <Graphics CenterX="158.0" CenterY="180.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00243" />
+  </DataNode>
+  <DataNode TextLabel="TCDCA" GraphId="cae3d" Type="Metabolite">
+    <Graphics CenterX="644.5" CenterY="415.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00951" />
+  </DataNode>
+  <DataNode TextLabel="Malate" GraphId="d11cf" Type="Metabolite">
+    <Graphics CenterX="158.0" CenterY="200.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0033cc" />
+    <Xref Database="HMDB" ID="HMDB00156" />
+  </DataNode>
+  <DataNode TextLabel="Insulin" GraphId="d26d2" Type="GeneProduct">
+    <Graphics CenterX="363.0" CenterY="368.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="Tyrosine" GraphId="e0e6e" Type="Metabolite">
+    <Graphics CenterX="575.0" CenterY="121.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00158" />
+  </DataNode>
+  <DataNode TextLabel="Phenylalanine" GraphId="ece63" Type="Metabolite">
+    <Graphics CenterX="575.0" CenterY="201.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00159" />
+  </DataNode>
+  <DataNode TextLabel="Metabolite" GraphId="ee6d5" Type="Metabolite">
+    <Graphics CenterX="358.0" CenterY="482.0" Width="0.06666666666666667" Height="0.06666666666666667" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="" ID="" />
+  </DataNode>
+  <DataNode TextLabel="Citrulline" GraphId="f042a" Type="Metabolite">
+    <Graphics CenterX="694.0" CenterY="160.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00904" />
+  </DataNode>
+  <DataNode TextLabel="Lysine" GraphId="f355c" Type="Metabolite">
+    <Graphics CenterX="575.0" CenterY="181.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00182" />
+  </DataNode>
+  <DataNode TextLabel="Hippuric acid" GraphId="f3575" Type="Metabolite">
+    <Graphics CenterX="239.0" CenterY="473.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00714" />
+  </DataNode>
+  <DataNode TextLabel="valine" GraphId="fb26b" Type="Metabolite">
+    <Graphics CenterX="575.0" CenterY="141.0" Width="80.0" Height="20.0" ZOrder="32768" FontSize="12" Valign="Middle" Color="0000ff" />
+    <Xref Database="HMDB" ID="HMDB00883" />
+  </DataNode>
+  <Interaction GraphId="a1e20">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="362.0" Y="463.0" GraphRef="b4f4c" RelX="0.0" RelY="-1.0" />
+      <Point X="363.0" Y="378.0" GraphRef="d26d2" RelX="0.0" RelY="1.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="abf77">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="403.0" Y="368.0" GraphRef="d26d2" RelX="1.0" RelY="0.0" />
+      <Point X="606.0" Y="355.0" GraphRef="a8c97" RelX="-1.0" RelY="0.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="b155b">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="363.0" Y="358.0" GraphRef="d26d2" RelX="0.0" RelY="-1.0" />
+      <Point X="575.0" Y="286.0" GraphRef="d996a" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="d965c">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="363.0" Y="358.0" GraphRef="d26d2" RelX="0.0" RelY="-1.0" />
+      <Point X="433.0" Y="284.0" GraphRef="dd623" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="df234">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="76.0" Y="219.0" />
+      <Point X="693.0" Y="218.99999999999994" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="e55cf">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="363.0" Y="358.0" GraphRef="d26d2" RelX="0.0" RelY="-1.0" />
+      <Point X="166.0" Y="285.0" ArrowHead="Arrow" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Interaction GraphId="ead31">
+    <Graphics ZOrder="12288" LineThickness="1.0">
+      <Point X="363.0" Y="358.0" GraphRef="d26d2" RelX="0.0" RelY="-1.0" />
+      <Point X="300.0" Y="283.0" GraphRef="b15c6" RelX="0.0" RelY="1.0" ArrowHead="TBar" />
+    </Graphics>
+    <Xref Database="" ID="" />
+  </Interaction>
+  <Label TextLabel="Bile salts" GraphId="a8c97">
+    <Graphics CenterX="646.0" CenterY="355.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Lipolysis" GraphId="b15c6">
+    <Graphics CenterX="300.0" CenterY="273.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Proteolysis" GraphId="d996a">
+    <Graphics CenterX="575.0" CenterY="276.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Ketogenesis" GraphId="dd623">
+    <Graphics CenterX="433.0" CenterY="274.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <Label TextLabel="Glycolysis" GraphId="fc436">
+    <Graphics CenterX="158.0" CenterY="273.0" Width="80.0" Height="20.0" ZOrder="28672" FillColor="ffffff" FontSize="10" Valign="Middle" />
+  </Label>
+  <InfoBox CenterX="0.0" CenterY="0.0" />
+</Pathway>
+
