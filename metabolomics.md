@@ -77,5 +77,6 @@ After the calculations have finished, you now get a list of pathways, ordered by
 In the result table you see the values for r, the number of genes that meet your criterion, and n, the total number of genes in the Pathway. From these values a percentage and a z-score are calculated. Note how the Z-score and percentages are related for different pathways.
 
 ---
-Copyright (C) 2009 Kristina Hanspers, [source](http://developers.pathvisio.org/wiki/MetabolomicsTutorial).
+Copyright (C) 2009 Kristina Hanspers, 2018 Egon Willighagen, [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
+
 
