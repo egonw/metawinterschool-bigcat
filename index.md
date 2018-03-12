@@ -85,7 +85,8 @@ helper = function(x) {
 }
 ```
 
-This function takes a HMDB identifier and returns the corresponding [Wikidata](http://wikidata.org/) identifier.
+This function takes a HMDB identifier("Ch") and returns the corresponding [Wikidata](http://wikidata.org/) identifier("Wd").
+Please check the documentation from [BridgeDb](https://www.bridgedb.org/documentation/system-codes/), to find the other databases to which you could map.
 
 You can load that aforementioned data file with:
 
