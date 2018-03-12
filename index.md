@@ -32,6 +32,7 @@ install.packages("RCurl") # if not present already
 install.packages("devtools") # if not present already
 library(devtools)
 install_github("bridgedb/BridgeDbR")
+library(BridgeDbR)
 ```
 
 And, another alternative, use the docker container from https://hub.docker.com/r/bioconductor/devel_metabolomics2/
